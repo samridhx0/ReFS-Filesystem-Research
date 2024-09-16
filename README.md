@@ -37,3 +37,23 @@ This repository is a resource for **digital forensics professionals** and **inci
 This repositary is a work-in-progress. I will update it from time to time.
 
 ---
+🙏 Thank You & References
+
+This repository wouldn’t be possible without the invaluable research and contributions from the forensics and file system communities. Special thanks to the researchers and developers who have explored the depths of ReFS and shared their findings.
+
+Key References:
+
+"Reverse engineering of ReFS"
+Authors: Rune Nordvik, Henry Georges, Fergus Toolan, Stefan Axelsson
+Available at: https://www.sciencedirect.com/science/article/pii/S1742287619301252
+
+"Forensic analysis of the Resilient File System (ReFS) journaling"
+Authors: Seonho Lee, Jungheum Park, Hyunuk Hwang, Seungyoung Lee, Sangjin Lee, Doowon Jeong
+Available at: https://www.sciencedirect.com/science/article/pii/S2666281721000342
+
+https://www.resilientfilesystem.co.uk/
+Author: Andrew Head
+
+https://www.ntfs.com/refs-architecture.htm
+
+
