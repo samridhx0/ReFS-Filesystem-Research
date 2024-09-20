@@ -36,6 +36,9 @@ This repository is a resource for **digital forensics professionals** and **inci
 
 The Filesystem's Boot Sector Starts As Follows:
 
+<img width="563" alt="image" src="https://github.com/user-attachments/assets/e3432e03-d538-4afa-bcad-39b0340e7819">
+<i>The Hex of The Boot Sector</i>
+
 | Offset | Value        | Description                    |
 |--------|--------------|--------------------------------|
 | x00    | 3 bytes      | JMP Instructions               |
