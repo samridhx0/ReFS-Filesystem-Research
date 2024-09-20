@@ -45,8 +45,8 @@ The Filesystem's Boot Sector Starts As Follows:
 | x03    | 4 bytes      | File System Name               |
 | x07    | 9 bytes      | Reserved (Must be '00')        |
 | x16    | 4 bytes      | Identity - FSRS (signature)    |
-| x20    | 2 bytes      | Length of FCRS                 |
-| x22    | 2 bytes      | Checksum of FCRS               |
+| x20    | 2 bytes      | Length of FSRS                 |
+| x22    | 2 bytes      | Checksum of FSRS               |
 | x24    | 8 bytes      | Total Sectors                  |
 | x32    | 4 bytes      | Bytes per Section              |
 | x36    | 4 bytes      | Sectors Per Cluster            |
