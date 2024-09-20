@@ -36,19 +36,20 @@ This repository is a resource for **digital forensics professionals** and **inci
 
 The Filesystem's Boot Sector Starts As Follows:
 
-Offset	Value	Description
-x00	3 bytes	JMP Instructions
-x03	4 bytes	File System Name
-x0C	8 bytes	Volume Key (NEGRAV)
-x14	4 bytes	Reserved (Must be '00')
-x16	48 bytes (L)	Identity - FCRS (signature)
-x20	2 bytes	Length of FCRS
-x22	2 bytes	Checksum of FCRS
-x24	8 bytes	Total Sectors (unclear)
-x32	48 bytes	FSR Bytes per Section
-x36	4 bytes	ReFS Version & System Cluster
-x40	16 bytes	Unknown (Research ongoing)
-x56	8 bytes	Serial Number
+| Offset | Value        | Description                    |
+|--------|--------------|--------------------------------|
+| x00    | 3 bytes      | JMP Instructions               |
+| x03    | 4 bytes      | File System Name               |
+| x0C    | 8 bytes      | Volume Key (NEGRAV)            |
+| x14    | 4 bytes      | Reserved (Must be '00')        |
+| x16    | 48 bytes (L) | Identity - FCRS (signature)    |
+| x20    | 2 bytes      | Length of FCRS                 |
+| x22    | 2 bytes      | Checksum of FCRS               |
+| x24    | 8 bytes      | Total Sectors (unclear)        |
+| x32    | 48 bytes     | FSR Bytes per Section          |
+| x36    | 4 bytes      | ReFS Version & System Cluster  |
+| x40    | 16 bytes     | Unknown (Research ongoing)     |
+| x56    | 8 bytes      | Serial Number                  |
 
 
 ---
