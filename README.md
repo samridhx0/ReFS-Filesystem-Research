@@ -23,6 +23,9 @@ ReFS is more than just another file system – it's designed for the demands of 
 
 ---
 
+![FINDME txt](https://github.com/user-attachments/assets/56b7a381-5c3c-4c76-8d9d-e27910a2fd20)
+
+
 ## Purpose
 
 This repository is a resource for **digital forensics professionals** and **incident responders** to understand and analyze ReFS, specifically in:
